@@ -1,0 +1,119 @@
+.links {
+    display: flex;
+    justify-content: end;
+    margin-top: 5vh;
+}
+
+.image-link, .advansed-link, .index-link {
+    padding: 5px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: larger;
+    color: #3c4043;
+}
+
+.image-link:hover, .advansed-link:hover, .index-link:hover {
+    color: blue;
+}
+
+
+.form, .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.text-form {
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin-top: 40vh;
+    position: relative;
+    width: 250px;
+    min-height: 44px;
+    text-align: center;
+}
+
+.btn-google-search {
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-image-search {
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-advanced-search {
+    user-select: none;
+    padding: 0 12px;
+    background-color: #4d90fe;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid #3079ed;
+    margin-top: 20px;
+    height: 30px;
+    min-width: 120px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-IFL {
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header {
+    color: #d93025;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+.advanced-form > p {
+    margin-left: 10px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.advanced-form {
+    display: inline;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin: 25px 35px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
