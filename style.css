@@ -1,20 +1,52 @@
 .links {
-    display: flex;
-    justify-content: end;
-    margin-top: 5vh;
+    display: flex; 
+    justify-content: end; 
+    margin-top: 20px;
+}
+.links img {
+    float: left;
+    width: 100px;
+    height: 36px;
+    margin: 15px 15px;
+}
+.index-link {
+    margin-left: 85%;
+    margin-top: 20px;
+    text-wrap: nowrap;
 }
 
-.image-link, .advansed-link, .index-link {
+.image-link, .advanced-link, .index-link {
     padding: 5px;
     margin-right: 40px;
     text-decoration: none;
     font-size: larger;
-    color: #3c4043;
+    color: #3079ed;
 }
 
 .image-link:hover, .advansed-link:hover, .index-link:hover {
-    color: blue;
+    color: #3c4043;
 }
+
+.google-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+.google-img img {
+    width: 272px;
+    height: 92px;
+}
+
+.ims {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: 220px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3079ed;
+}
+
 
 
 .form, .btn {
@@ -25,7 +57,7 @@
 .text-form {
     border-radius: 24px;
     border: 1px solid #dfe1e5;
-    margin-top: 40vh;
+    margin-top: 15px;
     position: relative;
     width: 250px;
     min-height: 44px;
@@ -77,6 +109,7 @@
     font-size: 11px;
     font-weight: bold;
     text-align: center;
+    margin-left: 325px;
 }
 
 .btn-IFL {
@@ -100,20 +133,52 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     border-bottom: 1px solid #dfe1e5;
-}
-
-.advanced-form > p {
-    margin-left: 10px;
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
 }
 
 .advanced-form {
-    display: inline;
-    justify-content: flex-start;
-    font-size: 20px;
-    margin: 25px 35px;
-    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
+.advanced-form > span {
+    margin-left: 15px;
+    font-size: 22px;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.AllF {
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4043;
+}
+
+.AtW {
+    display: inline-block;
+    float: left;
+    margin-right: 185px;
+}
+
+.tEWoP {
+    display: inline-block;
+    float: left;
+    margin-right: 100px;
+}
+
+.aOFtw {
+    display: inline-block;
+    float: left;
+    margin-right: 154px;
+}
+
+.nOFtw {
+    display: inline-block;
+    float: left;
+    margin-right: 142px;
+}
+
+
+
 
 
